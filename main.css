@@ -1,0 +1,36 @@
+
+.azul{
+	background-color: blue;
+}
+
+h1, h2, p{
+	color:white;
+}
+a{
+	color:white;/* text-decoration:none; para sacar la línea */
+}
+
+div{
+	background-color: red;
+}
+/* (llamo al papá ol y a tus hijos)
+ol li{
+	color:white;
+}
+*/
+/* (utilizando clase)
+.rojo ol li: first-child{
+	color:white;
+}*/
+
+li: first-of-type{
+	color:white;
+};
+li: first-child{
+	color:green;
+}
+li:last-child {
+	color:yellow;
+}
+
+
